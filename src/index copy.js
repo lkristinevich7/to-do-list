@@ -56,13 +56,6 @@ function toogleClass(){
     return toggleElement
 }
 
-// let unoderedList=document.getElementById("todolist")
-// unoderedList.addEventListener('click', function(ev){
-//     if(ev.target.tagName==="LI"){
-//         ev.target.classList.toggle('checked') 
-//     }
-// },false)
-
 //add element
 let addButton=document.querySelector('button');
 addButton.addEventListener('click', addElement)
